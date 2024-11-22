@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto correto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</body>
+<body style="background-color: beige;">
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Sociedade Harmonia</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html.html" class="nav-link">Sobre nós<s></s></a></li>
+                    <li class="nav-item"><a href="paginadois.html.html" class="nav-link">Veraneio</a></li>
+                    <li class="nav-item"><a href="formulario.html" class="nav-link"> Contato</a></li>
+                </ul>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/close_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html.html" class="nav-link">Sobre nós</a></li>
+                <li class="nav-item"><a href="paginadois.html.html" class="nav-link">Veraneio</a></li>
+                <li class="nav-item"><a href="formulario.html" class="nav-link">Contato</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <script src="js/script.js"></script>
+</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>contato</title>
+  </head>
+  <body> <br><br><br><br><br><br>
+    <div class="formulario">
+        <form method="post" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" placeholder="Seu nome" minlength="3" required >
+            
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="Seu e-mail" required >
+
+            <label for="telefone">Número para contato:</label>
+            <input type="tel" name="telefone" placeholder=" Seu telefone / WhatsApp">
+
+            <label for="assunto"> Solicitação: </label>
+            <input type="tel" name="assunto" placeholder="assunto">
+
+
+            <input class="enviar" type="button" value="Enviar" />
+        </form>
+    </div>
+
+  </body>
+</html>
